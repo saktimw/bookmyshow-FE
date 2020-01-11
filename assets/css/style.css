@@ -1,0 +1,286 @@
+/* reset */
+
+body {
+    font-size: .91rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bg-dark-1 {
+    background-color: #34363b !important;
+}
+
+.bg-grey {
+    background-color: #282b31 !important;
+}
+
+.bg-grey-2 {
+    background-color: #e9e9e9 !important;
+}
+
+.bg-grey-3 {
+    background-color: #eaeaeabe !important;
+}
+
+.bg-green {
+    background-color: rgb(12, 228, 174) !important;
+}
+
+.text-success-1 {
+    color: rgb(12, 228, 174);
+}
+
+.h-60 {
+    height: 60% !important;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.strip-red {
+    display: inline-block;
+    height: 2px;
+    width: 30px;
+    background-color: #dc3545;
+}
+
+.text-separator {
+    position: relative;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    height: 10rem;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.bg-dark {
+    background-color: #232c3f !important;
+}
+
+.overflow-xy {
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+/* theatre */
+.theatre-title {
+    position: absolute;
+    bottom: 20px;
+}
+
+.blog-feed-title {
+    position: absolute;
+    bottom: 10px;
+    left: 2px;
+    right: 0;
+}
+
+/* navbar primary */
+.navbar {
+    padding: 0px 0px;
+}
+
+.nav-item .nav-r {
+    text-decoration: none;
+    color: #999 !important;
+    font-size: .75rem;
+    font-weight: 650 !important;
+}
+
+.nav-item .nav-link {
+    font-size: 0.87rem;
+}
+
+.nav-carousel {
+    font-weight: 600;
+    font-size: .85rem;
+    color: grey;
+    border: none;
+    border: .5px solid #d0d0d0;
+    background-color: #e9e9e9;
+}
+.nav-carousel:focus {
+    background-color: white;
+    outline: none;
+    outline: none;
+}
+
+.nav-carousel-active {
+    color: #2c313b;
+    background-color: white;
+    outline: none;
+}
+
+.nav-item .nav-r:hover {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: .75rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:rgb(12, 228, 174);
+}
+
+.font-weight-normal {
+    font-weight: 500 !important;
+}
+
+/* navbar secondary */
+.navbar-secondary{
+    height: 70px;
+    background-color: rgb(44, 49, 59, .65);
+}
+
+.dropdown .bg-danger:hover {
+    background-color: #dc3545 !important ;
+}
+
+.sticky-on {
+    position: absolute;
+    z-index: 1;
+}
+
+/* film */
+.film-info {
+    bottom: -150px;
+}
+
+/* featured events */
+.featured-events {
+    width: 100%;
+    max-height: 160px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 44, 63, .5);
+}
+
+.overlay .buy-link {
+    display: block;
+    text-align: center;
+    line-height: 160px;
+}
+
+.featured-events:hover .overlay {
+    display: block !important;
+}
+
+/* Top movies */
+.top-movies-list {
+    border-bottom: 1px solid #d0d0d0; 
+}
+
+/* now Showing */
+.now-showing {
+    width: 100%;
+    max-height: 299px;
+    height: 299px;
+    position: relative;
+}
+
+.now-showing img {
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(35, 44, 63, .5);
+}
+
+.overlay-inner {
+    margin-top: 130px;
+    margin-bottom: 110px;
+}
+
+.mov-info:hover .mov-info-inner{
+    color: white !important;
+}
+
+.overlay .mov-info {
+    display: block;
+    text-align: center;
+}
+
+.now-showing:hover .overlay {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* rate */
+.rate {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    z-index: 2;
+}
+
+/* contact */
+.contact-link:hover span {
+    color: white !important;
+}
+
+.contact-icon {
+    font-size: 3rem;
+}
+
+/* social media link */
+.social-media-link:hover span{
+    color: white !important;
+}
+
+@media (max-width: 768px) {
+    .navbar-secondary {
+        display: none;
+    }
+
+    .film-info {
+        top: 0;
+    }
+
+    .film-img {
+        display: none;
+    }
+}
+
+/* page movie */
+.play-button {
+    font-size: 4rem;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    top: 210px;
+}
